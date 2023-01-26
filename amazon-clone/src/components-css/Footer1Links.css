@@ -1,0 +1,21 @@
+/* .col-title{
+    color: white;
+} */
+
+.col-list{
+    list-style: none;
+    margin-bottom: 3.5px;
+}
+
+.col-link{
+    /* display: inline-block; */
+    font-size: 14px;
+    color: #DDD;
+    text-decoration: none;
+    /* margin-bottom: 3px; */
+}
+
+.col-link:hover{
+    color: #DDD;
+    text-decoration: underline;
+}

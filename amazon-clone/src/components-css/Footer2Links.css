@@ -1,0 +1,41 @@
+/* .col-title{
+    color: white;
+} */
+
+.footer2-links{
+    /* margin-right: 110px; */
+    font-size: 11px!important;
+    padding: 0 0.75em;
+    vertical-align: top;
+    text-align: left;
+    line-height: 115%;
+}
+
+.column-data{
+    text-decoration: none;
+    color: #DDD;
+    font-size: 11px;
+    /* margin-bottom: 3.5px; */
+}
+
+.column-data:hover{
+    color: #DDD;
+    text-decoration: underline;
+}
+
+.column-data span{
+    font-size: 10px;
+    color: #999;
+}
+
+.column-data span:hover{
+    color: #999;
+    /* text-decoration-color: black; */
+}
+
+.space{
+    width: 4%;
+    line-height: 120%;
+    padding: 0 10px;
+}
+

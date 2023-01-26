@@ -1,0 +1,237 @@
+.signup{
+    /* background-color: white; */
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.signup-logo{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.signup-amazon{
+    width: 115px;
+    height: 33px;
+    object-fit: contain;
+}
+
+.signup-domain{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: 2px;
+    right: 3px;
+}
+
+.signup-box{
+    border: 1px solid #dddddd;
+    width: 350px;
+    margin-top: 18px;
+    padding: 14px 18px;
+    border-radius: 4px;
+}
+
+.signup-box h1{
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+
+label{
+    display: block;
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.input{
+    font-size: 13px;
+    width: 100%;
+    /* width: 354px; */
+    height: 31px;
+    margin-bottom: 14px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 13px;
+    color: #767676;
+}
+
+.mobile-label{
+    padding-bottom: 6px;
+}
+
+.mobile-section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 31px;
+    margin-bottom: 14px;
+}
+
+.mobile-section span{
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    width: 23%;
+    height: 31px;
+    font-size: 13px;
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.mobile-section span:hover{
+    background-color: #dcdfe3;
+}
+
+.code-selector-icon{
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png);
+    -webkit-background-size: 400px 750px;
+    background-size: 400px 750px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 5px;
+    height: 8px;
+    background-position: -65px -5px;
+}
+
+.mobile{
+    width: 71%;
+}
+
+.password-desc{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+    margin-top: -8px;
+}
+
+.info-icon{
+    height: 13px;
+    width: 14px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png);
+    -webkit-background-size: 400px 750px;
+    background-size: 400px 750px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    background-position: -166px -130px;
+}
+
+.password-desc span{
+    margin-left: 16px;
+}
+
+.signup-disclaimer{
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
+.signup-disclaimer a{
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.signup-btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 31px;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    border: 1px solid #9c7e31;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.signup-btn:hover{
+    background: #f0c14b;
+}
+
+.signup-box hr{
+    width: 100% !important;
+    background-color: #e1e1e1;
+    opacity: 0.6 !important;
+    border-top: 1.5px solid #e1e1e1 !important;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+
+.existing-account, .business-account{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.signin-link, .business-acc-link{
+    color: #0066c0;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.signin-link:hover, .business-acc-link:hover{
+    text-decoration: underline;
+    color: #c45500;
+}
+
+.link-arrow{
+    font-size: 15px !important;
+    margin-left: -5px;
+}
+
+.signup hr{
+    width: 50%;
+    background-color: #e1e1e1;
+    opacity: 1;
+    border-top: 2px solid #e1e1e1;
+    margin-top: 28px;
+}
+
+.signup-footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    width: 240px;
+}
+
+.signup-footer-top a{
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.signup-footer-top a:hover{
+    text-decoration: underline;
+    color: #c45500;
+}
+
+.signup-footer-top, .signup-footer-bottom{
+    margin-top: 8px;
+}
+
+.signup-footer-bottom{
+    font-size: 11px;
+    color: #555;
+}

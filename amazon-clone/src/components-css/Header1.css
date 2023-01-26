@@ -1,0 +1,347 @@
+#prevent-overrides .header1{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #131921;
+    color: white;
+}
+
+#prevent-overrides .logo{
+    display: flex;
+    align-items: center;
+    /* margin: 12px 0px 0 16.5px; */
+    /* margin-right: 6px; */
+    transform: scale(0.97);
+    padding: 0 6px;
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    margin: 10px -2px 10px 10px;             /*top right bottom left*/
+    border: 1.5px solid transparent;
+}
+
+#prevent-overrides .logo:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+#prevent-overrides .amazon{
+    width: 100px;
+    object-fit: contain;
+}
+
+#prevent-overrides .domain {
+    margin-bottom: 15px;
+    color: white;
+}
+
+#prevent-overrides .link{
+    text-decoration: none;
+    color: white;
+}
+
+#prevent-overrides .address {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 1.4%; */
+    /* color: #cccccc; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 0px 6px;
+    padding-right: 9px;
+    padding-top: 0px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    /* margin-right: 0.9% !important; */
+    border: 1.5px solid transparent;
+}
+
+#prevent-overrides .address:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+#prevent-overrides .hello{
+    position: relative;
+    left: 3.2%;
+    top: 4px;
+    margin-top: 1px;
+    color: #cccccc;
+    transform: scale(0.8);
+    font-size: 15px !important;
+}
+
+#prevent-overrides .bottom{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.5px;
+    font-weight: bold;
+    position: relative;
+    bottom: 4px;
+}
+
+#prevent-overrides .bottom span{
+    letter-spacing: 0.25px;
+    /* font-size: 14px;
+    position: relative;
+    top: 1px; */
+}
+
+#prevent-overrides .location{
+    color: white;
+    font-size: 1.2rem !important;
+}
+
+#prevent-overrides .search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    /* margin-right: 0.8% !important; */
+} 
+
+#prevent-overrides .search-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px;
+    height: 40px;
+    background-color: #f3f3f3;
+    color: #555555;
+    border-right: 1px solid #cdcdcd;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    /* border-top: 3px solid #eea84b;
+    border-bottom: 3px solid #eea84b;
+    border-left: 3px solid #eea84b; */
+}
+
+#prevent-overrides .search-options:hover{
+    color: black !important;
+    background-color: #cdcdcd;
+}
+
+#prevent-overrides .search-type{
+    font-size: 13px;
+    position: relative;
+    left: 12%;
+}
+
+#prevent-overrides .search-dropdown{
+    color: #666666;
+    font-size: 1.2rem !important;
+    position: relative;
+    left: 18%;
+}
+
+#prevent-overrides .search input{
+    height: 40px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    /* border-top: 3px solid #eea84b;
+    border-bottom: 3px solid #eea84b; */
+}
+
+#prevent-overrides .search-icon{
+    font-size: 1.9rem !important;
+    width: 50px;
+    padding: 4.8px 7px;
+    height: 40px;
+    background-color: #febd69;
+    color: #333333;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    /* border-top: 3px solid #eea84b;
+    border-right: 3px solid #eea84b;
+    border-bottom: 3px solid #eea84b; */
+}
+
+#prevent-overrides .search-icon:hover{
+    background-color: #e79d3b;
+}
+
+#prevent-overrides .dropdown{
+    color: #a7acb2;
+    font-size: 1.3rem !important;
+    position: relative;
+    top: 1px;
+}
+
+#prevent-overrides .language{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0px 8px; */
+    padding-left: 9px;
+    padding-right: 8.5px;
+    padding-top: 0.1%;
+    padding-bottom: 0.25%;
+    border: 1.5px solid transparent;
+    margin-right: 0 !important;
+}
+
+#prevent-overrides .language:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+#prevent-overrides .language span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#prevent-overrides .lang{
+    position: relative;
+    left: -3%;
+    top: 0px;
+    transform: scale(0.9);
+    font-size: 14px !important;
+}
+
+#prevent-overrides .flag{
+    width: 18px;
+    object-fit: contain;
+    z-index: 1000;
+    position: relative;
+    left: 6%;
+    bottom: 1px;
+}
+
+#prevent-overrides .flag-info{
+    position: relative;
+    left: 9%;
+    top: -4px;
+}
+
+#prevent-overrides .sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 8px; */
+    padding: 0.33%;
+    padding-left: 0.6%;
+    padding-top: 0px;
+    border: 1.5px solid transparent;
+    margin-right: 0 !important;
+    width: 138.64px;
+    height: 47.5px;
+}
+
+#prevent-overrides .sign-in:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+#prevent-overrides .text-scale{
+    position: relative;
+    left: -1.5%;
+    top: 3px;
+    transform: scale(0.9);
+}
+
+#prevent-overrides .account{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 5.5px;
+    left: 4%;
+}
+
+#prevent-overrides .orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 9px;
+    padding-top: 0%;
+    padding-bottom: 0.4%;
+    border: 1.5px solid transparent;
+}
+
+#prevent-overrides .orders:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+#prevent-overrides .order{
+    font-weight: bold;
+    position: relative;
+    bottom: 2.5px;
+}
+
+#prevent-overrides .returns{
+    position: relative;
+    left: -5.5%;
+    top: 4px;
+    transform: scale(0.9);
+}
+
+#prevent-overrides .cart{
+    display: flex;
+    align-items: center;
+    margin-right: 16.5px;
+    padding: 0.7% 0.4%;
+    /* padding-right: 3%;
+    /* padding-right: 3%; */
+    border: 1.5px solid transparent;
+    position: relative;
+}
+
+#prevent-overrides .cart:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+.items-count{
+    position: absolute;
+    left: 23.5px;
+    right: auto;
+    top: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f08804;
+}
+
+.cart-img{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405936311_.png);
+    background-size: 350px;
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
+}
+
+/* #prevent-overrides .cart-icon{
+    font-size: 2.2rem !important;
+} */
+
+#prevent-overrides .cart-text{
+    font-weight: bold;
+    position: relative;
+    top: 5.5px;
+}
+
+#prevent-overrides .right-gap{
+    margin-right: 0.9%;
+}
+
+#prevent-overrides .prime-font{
+    font-size: 13.5px;
+    letter-spacing: 0.25px
+}
+
+#prevent-overrides .sec-font{
+    font-size: 14.5px;
+}
+
+/* .gereral-hover:hover{
+    border: 2px solid white;
+} */
+
+/* .shift-left{
+    position: relative;
+    right: 1.2%;
+} */

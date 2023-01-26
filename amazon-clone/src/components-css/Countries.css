@@ -1,0 +1,20 @@
+/* .countries{
+    display: flex;
+    align-items: center;
+} */
+
+.country-list{
+    list-style: none;
+}
+
+.country{
+    font-size: 12px;
+    color: #DDD;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.country:hover{
+    text-decoration: underline;
+    color: #DDD;
+}
