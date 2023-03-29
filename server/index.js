@@ -6,6 +6,8 @@ const express = require("express");
 
 // const PORT = process.env.PORT || 3001;
 
+require("dotenv").config();
+
 const bodyParser = require("body-parser");
 // const ejs = require("ejs");
 const mongoose = require('mongoose');
@@ -26,9 +28,13 @@ app.use(express.static(path.resolve(__dirname, '../amazon-clone/build')));
 app.use(bodyParser.urlencoded({extended: true}));
 // app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
-// mongoose.connect("mongodb+srv://admin-pranshu:MongoXPranshu24@cluster0.pzfo6fe.mongodb.net/amazonDB", {useNewUrlParser: true, useUnifiedTopology: true});
+// console.log(process.env.MongoDB_Link);
+
+// mongoose.connect(`${process.env.MongoDB_Link}`, {useNewUrlParser: true, useUnifiedTopology: true});
+
+mongoose.connect("mongodb+srv://admin-pranshu:MongoXPranshu24@cluster0.pzfo6fe.mongodb.net/amazonDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const userSchema = new mongoose.Schema ({
   name: String,
