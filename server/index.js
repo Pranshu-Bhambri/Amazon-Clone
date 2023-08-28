@@ -34,7 +34,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // mongoose.connect(`${process.env.MongoDB_Link}`, {useNewUrlParser: true, useUnifiedTopology: true});
 
-mongoose.connect("mongodb+srv://admin-pranshu:MongoXPranshu24@cluster0.pzfo6fe.mongodb.net/amazonDB", {useNewUrlParser: true, useUnifiedTopology: true});
+// remove cred_mongo
 
 const userSchema = new mongoose.Schema ({
   name: String,
